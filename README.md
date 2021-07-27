@@ -1,20 +1,21 @@
-## Summary
+## Aircall - About
 
-The goal of this test is to make you code a small ReactJS app. We have prepared a skeleton app for you, but please change whatever you want (CSS files, HTML structure, JS structure...).
+Aircall is a minimalistic call history app created with ReactJS and axios.
+Aircall is multi-tab and performs GET/POST request to an API to render/update call details.
 
-The app will have two different components:
-- **Activity Feed** - simple list of calls
-- **Activity Detail** - detail of a call
+## Airacll - Features
+Aircall users can view a call history through 4 filtered categories:
+- All Calls
+- Inbox (Inbound calls)
+- Outbox (Outbound calls)
+- Archived (Archived calls)
 
-Show us what you can do in 6 hours top :) Focus on design, development - all aspects!
+Users are also able to archive any call in the first three categories - they are also able to navigate to the archived section and unarchive any previously archived call. Each call has an icon corresponding to its call type - inbound, outbound, missed, voicemail.
 
-**Bonus:** the final user should be able to archive a call. The call will no longer be displayed on the Activity Feed. Please code that only if you have extra time.
-
-
-To give you an idea, here what our app looks like:
-
-
-![app](https://user-images.githubusercontent.com/630714/29357034-763d7216-8276-11e7-8bcb-e77d9645dfcc.png)
+# Screenshots
+![app1](C:\Users\Jaemin\Desktop\frontend-test-master\documents\Feature1.jpg)
+![app2](C:\Users\Jaemin\Desktop\frontend-test-master\documents\Feature2.jpg)
+![app3](C:\Users\Jaemin\Desktop\frontend-test-master\documents\Feature3.jpg)
 
 ## Installation
 
