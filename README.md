@@ -13,9 +13,9 @@ Aircall users can view a call history through 4 filtered categories:
 Users are also able to archive any call in the first three categories - they are also able to navigate to the archived section and unarchive any previously archived call. Each call has an icon corresponding to its call type - inbound, outbound, missed, voicemail.
 
 # Screenshots
-![app1](C:\Users\Jaemin\Desktop\frontend-test-master\documents\Feature1.jpg)
-![app2](C:\Users\Jaemin\Desktop\frontend-test-master\documents\Feature2.jpg)
-![app3](C:\Users\Jaemin\Desktop\frontend-test-master\documents\Feature3.jpg)
+![app1](./documents/Feature2.jpg)
+![app2](./documents/Feature2.jpg)
+![app3](./documents/Feature2.jpg)
 
 ## Installation
 
