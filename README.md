@@ -14,6 +14,13 @@ Users are also able to archive any call in the first three categories - they are
 
 The aesthetic of this app is based around a minimalistic, text-focused black and white design. I was styling the app's components for positioning and layout and realized that I actually liked the simple monochrome look of the main call history page! 
 
+## Installation
+Run (in order!)
+```
+yarn install
+yarn start
+```
+
 ## Screenshots
 ![app1](https://github.com/xPuffball/leap_history/blob/main/documents/Feature1.JPG)
 ![app2](https://github.com/xPuffball/leap_history/blob/main/documents/Feature2.JPG)
@@ -26,12 +33,4 @@ Getting the calls under day categories
 ![app2](https://github.com/xPuffball/leap_history/blob/main/documents/2.JPG)
 Testing dynamic icons for each call
 ![app3](https://github.com/xPuffball/leap_history/blob/main/documents/3.JPG)
-
-## Installation
-Run
-```
-yarn install
-yarn start
-```
-
 
