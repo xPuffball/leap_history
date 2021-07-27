@@ -12,48 +12,26 @@ Aircall users can view a call history through 4 filtered categories:
 
 Users are also able to archive any call in the first three categories - they are also able to navigate to the archived section and unarchive any previously archived call. Each call has an icon corresponding to its call type - inbound, outbound, missed, voicemail.
 
-# Screenshots
+The aesthetic of this app is based around a minimalistic, text-focused black and white design. I was styling the app's components for positioning and layout and realized that I actually liked the simple monochrome look of the main call history page! 
+
+## Screenshots
 ![app1](https://github.com/xPuffball/leap_history/blob/main/documents/Feature1.JPG)
 ![app2](https://github.com/xPuffball/leap_history/blob/main/documents/Feature2.JPG)
 ![app3](https://github.com/xPuffball/leap_history/blob/main/documents/Feature3.JPG)
 
+## Dev Screenshots
+Getting the call dates to render via .map
+![app1](https://github.com/xPuffball/leap_history/blob/main/documents/1.JPG)
+Getting the calls under day categories
+![app2](https://github.com/xPuffball/leap_history/blob/main/documents/2.JPG)
+Testing dynamic icons for each call
+![app3](https://github.com/xPuffball/leap_history/blob/main/documents/3.JPG)
+
 ## Installation
-
-We're using [yarn](https://yarnpkg.com) here:
-
+Run
 ```
 yarn install
 yarn start
 ```
-
-## API documentation
-
-### Routes
-
-Here is the API address: https://aircall-job.herokuapp.com.
-
-As you can see, it's hosted on a free Heroku server, which means that the first time you will fetch the API, it will take few seconds to answer.
-
-- **GET** - https://aircall-job.herokuapp.com/activities: get calls to display in the Activity Feed
-- **GET** - https://aircall-job.herokuapp.com/activities/:id: retrieve a specific call details
-- **POST** - https://aircall-job.herokuapp.com/activities/:id: update a call. The only field updatable is `is_archived (bool)`. You'll need to send a JSON in the request body:
-```
-{
-  is_archived: true
-}
-```
-- **GET** - https://aircall-job.herokuapp.com/reset: Reset all calls to initial state (usefull if you archived all calls).
-
-### Call object
-
-- **id** - unique ID of call
-- **created_at** - creation date
-- **direction** - `inbound` or `outbound` call
-- **from** - caller's number
-- **to** - callee's number
-- **via** - Aircall number used for the call
-- **duration** - duration of a call (in seconds)
-- **is_archived** - call is archived or not
-- **call_type** - can be a `missed`, `answered` or `voicemail` call.
 
 
