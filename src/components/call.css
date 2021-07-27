@@ -1,0 +1,72 @@
+.call {
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.fromto {
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infoContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dateContainer {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.callIcon {
+    margin-right: 15px;
+}
+
+.received {
+    margin-bottom: -5px;
+}
+
+.missed {
+    margin-bottom: -10px;
+}
+
+.from {
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.archiveButton {
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    padding: 0px;
+}
+
+.archiveButton:hover {
+    color: grey;
+}
+
+.confirmMenu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
