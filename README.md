@@ -3,7 +3,7 @@
 Aircall is a minimalistic call history app created with ReactJS and axios.
 Aircall is multi-tab and performs GET/POST request to an API to render/update call details.
 
-## Airacll - Features
+## Aircall - Features
 Aircall users can view a call history through 4 filtered categories:
 - All Calls
 - Inbox (Inbound calls)
@@ -13,9 +13,9 @@ Aircall users can view a call history through 4 filtered categories:
 Users are also able to archive any call in the first three categories - they are also able to navigate to the archived section and unarchive any previously archived call. Each call has an icon corresponding to its call type - inbound, outbound, missed, voicemail.
 
 # Screenshots
-![app1](./documents/Feature2.jpg)
-![app2](./documents/Feature2.jpg)
-![app3](./documents/Feature2.jpg)
+![app1](https://github.com/xPuffball/leap_history/blob/main/documents/Feature1.JPG)
+![app2](https://github.com/xPuffball/leap_history/blob/main/documents/Feature2.JPG)
+![app3](https://github.com/xPuffball/leap_history/blob/main/documents/Feature3.JPG)
 
 ## Installation
 
